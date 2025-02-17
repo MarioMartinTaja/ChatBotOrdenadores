@@ -1,8 +1,8 @@
 import os
-import extract
-import create_db
-import validate
-import insert_data
+import scripts.extract as extract
+import scripts.create_db as create_db
+import scripts.validate as validate
+import scripts.insert_data as insert_data
 
 # 1️⃣ Extraer datos de los PDFs
 pdf_folder = "pdfs/"
