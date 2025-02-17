@@ -1,0 +1,14 @@
+# Archivos de entorno
+.env
+
+# Archivos de salida y bases de datos locales
+output_texts/
+__pycache__/
+*.sqlite
+*.db
+
+# Entorno virtual (si lo usas)
+venv/
+
+# Configuración de IDEs
+.vscode/
